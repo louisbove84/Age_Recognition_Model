@@ -92,8 +92,6 @@ ________________________________
 
 The final CNN model is a result of hyperparameter tuning of the base model and data set expansion utilizing image augmentation. The final model increased the test accuracy from ***51%*** to ***65%***. Confusion marticies from the base and final model are shown below for comparison.
 
-A final test was conducted by importing three different images of the developers face (35 years old) to see how well the model was able to predict their age.
-
 <p align="center">
   <img src="Images/Model_compare.png">
 </p>
