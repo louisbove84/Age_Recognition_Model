@@ -18,7 +18,7 @@ Convolutional Neural Networks (CNN) are a class of deep neural networks, most co
 Project Inspiration: 'https://towardsdatascience.com/age-detection-using-facial-images-traditional-machine-learning-vs-deep-learning-2437b2feeab2'
 
 _______________________________________________
-## Exploratory Data Analysis: INCLUDE EXAMPLE DATASET
+## Exploratory Data Analysis:
 
 Over 50,000 labeled photos of human faces were compiled from three separate data sets ranging in age from newborn to 115 years old. Due to the uneven amount of photos by age the decision was made to group the data into 8 different age groups (0-3, 4-7, 8-14, 15-24, 25-37, 38-47, 48-59, 60-). Additionally, photos from one of the age groups had to be reduced in order to even out the overall distribution between groups.
 
@@ -90,7 +90,7 @@ After running the tuned model over the augmented data set the resulting predicti
 ________________________________
 ## Final Results
 
-The final CNN model is a result of hyperparameter tuning of the base model and data set expansion utilizing image augmentation. The final model increased the test accuracy from ***51%*** to ***65%***. Confusion marticies from the base and final model are shown below for comparison.
+The final CNN model is a result of hyperparameter tuning of the base model and data set expansion utilizing image augmentation. The final model increased the test accuracy from ***51%*** to ***65%***. Confusion matrices from the base and final model are shown below for comparison.
 
 <p align="center">
   <img src="Images/Model_compare.png">
@@ -115,5 +115,5 @@ Data Visualization: Matplotlib
 _______________________________________
 ## Future Improvements
 
-1. Encorporate video capture in order to predict age in real time utilizing webcam feed.
+1. Incorporate video capture in order to predict age in real time utilizing webcam feed.
 2. Explore the individual age data sets and compare the prediction accuracy to the current model.
